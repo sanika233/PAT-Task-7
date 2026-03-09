@@ -20,4 +20,4 @@ release_year INT
 DESC movies;
 
 #output
-![image alt] ()
+![image alt] (https://github.com/sanika233/PAT-Task-7/blob/7540155ed9484218ffadb6f4ecc1a229435ca8fd/Create%20Movies%20Table.png)

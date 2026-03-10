@@ -58,5 +58,24 @@ SELECT * FROM genres;
 SELECT * FROM movie_genre;
 
 
-5. 
+5. Create Users and Reviews Tables
+
+CREATE TABLE users(
+user_id INT AUTO_INCREMENT PRIMARY KEY,
+username VARCHAR(100)
+);
+
+SHOW TABLES ;
+
+CREATE TABLE reviews(
+review_id INT AUTO_INCREMENT PRIMARY KEY,
+movie_id INT,
+user_id INT,
+rating INT,
+review TEXT,
+FOREIGN KEY(movie_id) REFERENCES movies(movie_id),
+FOREIGN KEY(user_id) REFERENCES users(user_id)
+);
+
+6. 
 

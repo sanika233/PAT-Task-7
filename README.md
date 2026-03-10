@@ -80,7 +80,7 @@ FOREIGN KEY(user_id) REFERENCES users(user_id)
 
 #output
 
-![image alt] (https://github.com/sanika233/PAT-Task-7/blob/bb40e03f81bb90e49f56b9bc43c1f616025ea903/Create%20Genre%20%2C%20Users%20and%20Reviews%20Tables.png)
+![image alt](https://github.com/sanika233/PAT-Task-7/blob/bb40e03f81bb90e49f56b9bc43c1f616025ea903/Create%20Genre%20%2C%20Users%20and%20Reviews%20Tables.png)
 
 
 6. 

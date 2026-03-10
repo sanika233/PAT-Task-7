@@ -36,3 +36,27 @@ SHOW TABLES;
 #output
 ![image alt] (https://github.com/sanika233/PAT-Task-7/blob/3f92c3d3c05c45cfcf6fe0999265278dd114ba47/3Create%20Media%20Table%20(Movie%20%E2%86%92%20Multiple%20Media).png)
 
+
+4. Create Genre Tables (Many-to-Many)
+
+CREATE TABLE genres(
+genre_id INT AUTO_INCREMENT PRIMARY KEY,
+genre_name VARCHAR(100)
+);
+SHOW TABLES;
+
+CREATE TABLE movie_genre(
+movie_id INT,
+genre_id INT,
+PRIMARY KEY(movie_id,genre_id),
+FOREIGN KEY(movie_id) REFERENCES movies(movie_id),
+FOREIGN KEY(genre_id) REFERENCES genres(genre_id)
+);
+
+SHOW TABLES ;
+SELECT * FROM genres;
+SELECT * FROM movie_genre;
+
+
+5. 
+

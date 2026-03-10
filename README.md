@@ -34,5 +34,5 @@ FOREIGN KEY(movie_id) REFERENCES movies(movie_id)
 
 SHOW TABLES;
 #output
-![image alt] ()
+![image alt] (https://github.com/sanika233/PAT-Task-7/blob/3f92c3d3c05c45cfcf6fe0999265278dd114ba47/3Create%20Media%20Table%20(Movie%20%E2%86%92%20Multiple%20Media).png)
 

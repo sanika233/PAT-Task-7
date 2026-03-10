@@ -21,3 +21,18 @@ DESC movies;
 
 #output
 ![image alt] (https://github.com/sanika233/PAT-Task-7/blob/7540155ed9484218ffadb6f4ecc1a229435ca8fd/Create%20Movies%20Table.png)
+
+3. Create Media Table (Movie → Multiple Media)
+
+CREATE TABLE media(
+media_id INT AUTO_INCREMENT PRIMARY KEY,
+movie_id INT,
+media_type VARCHAR(50),
+media_url VARCHAR(255),
+FOREIGN KEY(movie_id) REFERENCES movies(movie_id)
+);
+
+SHOW TABLES;
+#output
+![image alt] ()
+

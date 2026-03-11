@@ -145,3 +145,8 @@ VALUES
 ![image alt](https://github.com/sanika233/PAT-Task-7/blob/f3a54dbf251d0dfc1bdb71c17e5e71f1d86c82e7/7.%20Insert%20Data.png)
 
 
+![image alt](https://github.com/sanika233/PAT-Task-7/blob/c7198fc4050dc209b81e7f87cf58f3b30a1ca50b/8.%20media%20.png)
+
+![image alt](https://github.com/sanika233/PAT-Task-7/blob/c7198fc4050dc209b81e7f87cf58f3b30a1ca50b/9.reviews%20tabel.png)
+
+

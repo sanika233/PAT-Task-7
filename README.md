@@ -115,3 +115,33 @@ FOREIGN KEY(artist_id) REFERENCES artists(artist_id)
 #output
 
 ![image alt](https://github.com/sanika233/PAT-Task-7/blob/732cd8a6ed91a9935fe69d58128c04ea4a32c106/6.%20Create%20Artists%20and%20Skills%20Tables%20and%20Artist%20Roles%20Table.png)
+
+7. Insert Data
+
+   INSERT INTO movies(title,release_year)
+VALUES('Inception',2010);
+
+INSERT INTO media(movie_id,media_type,media_url)
+VALUES
+(1,'image','poster.jpg'),
+(1,'video','trailer.mp4');
+
+INSERT INTO genres(genre_name)
+VALUES('Action'),('Sci-Fi');
+
+INSERT INTO movie_genre
+VALUES(1,1),(1,2);
+
+INSERT INTO users(username)
+VALUES('Sanika'),('Rahul');
+
+INSERT INTO reviews(movie_id,user_id,rating,review)
+VALUES
+(1,1,5,'Amazing movie'),
+(1,2,4,'Great movie');
+
+#output
+
+![image alt](https://github.com/sanika233/PAT-Task-7/blob/f3a54dbf251d0dfc1bdb71c17e5e71f1d86c82e7/7.%20Insert%20Data.png)
+
+

@@ -82,6 +82,36 @@ FOREIGN KEY(user_id) REFERENCES users(user_id)
 
 ![image alt](https://github.com/sanika233/PAT-Task-7/blob/bb40e03f81bb90e49f56b9bc43c1f616025ea903/Create%20Genre%20%2C%20Users%20and%20Reviews%20Tables.png)
 
+6. Create Artists and Skills Tables and Artist Roles Table
 
-6. 
+CREATE TABLE artists(
+artist_id INT AUTO_INCREMENT PRIMARY KEY,
+artist_name VARCHAR(200)
+);
 
+CREATE TABLE skills(
+skill_id INT AUTO_INCREMENT PRIMARY KEY,
+skill_name VARCHAR(100)
+);
+
+CREATE TABLE artist_skills(
+artist_id INT,
+skill_id INT,
+PRIMARY KEY(artist_id,skill_id),
+FOREIGN KEY(artist_id) REFERENCES artists(artist_id),
+FOREIGN KEY(skill_id) REFERENCES skills(skill_id)
+);
+
+CREATE TABLE movie_artist_roles(
+movie_id INT,
+artist_id INT,
+role VARCHAR(100),
+PRIMARY KEY(movie_id,artist_id,role),
+FOREIGN KEY(movie_id) REFERENCES movies(movie_id),
+FOREIGN KEY(artist_id) REFERENCES artists(artist_id)
+);
+
+
+#output
+
+![image alt] (https://github.com/sanika233/PAT-Task-7/blob/732cd8a6ed91a9935fe69d58128c04ea4a32c106/6.%20Create%20Artists%20and%20Skills%20Tables%20and%20Artist%20Roles%20Table.png)

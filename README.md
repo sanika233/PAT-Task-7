@@ -114,4 +114,4 @@ FOREIGN KEY(artist_id) REFERENCES artists(artist_id)
 
 #output
 
-![image alt] (https://github.com/sanika233/PAT-Task-7/blob/732cd8a6ed91a9935fe69d58128c04ea4a32c106/6.%20Create%20Artists%20and%20Skills%20Tables%20and%20Artist%20Roles%20Table.png)
+![image alt](https://github.com/sanika233/PAT-Task-7/blob/732cd8a6ed91a9935fe69d58128c04ea4a32c106/6.%20Create%20Artists%20and%20Skills%20Tables%20and%20Artist%20Roles%20Table.png)
